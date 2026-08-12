@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: sujataavengers2022-lang/Yoga-site-
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+    - name: "post"
+    label: "Post"
+    folder: "content/posts"
+    create: true
+    fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Body", name: "body", widget: "markdown"}
